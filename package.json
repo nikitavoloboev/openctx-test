@@ -1,0 +1,17 @@
+{
+  "name": "ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch main.ts",
+    "ts": "bun --watch scripts/run.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.14"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "prettier": {
+    "semi": false
+  }
+}
